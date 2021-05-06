@@ -1,2 +1,2 @@
-# cg-sprint-2021
-Codingame challenge 2021
+# cg-spring-2021
+Codingame spring challenge 2021
