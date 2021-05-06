@@ -8,7 +8,19 @@
 				"$rustc"
 			],
 			"group": "build",
-			"label": "Rust: cargo build - cg-spring-2021"
+			"label": "rust-build"
+		},
+		{
+			"type": "shell",
+			"command": "python ./modules/cg-rust-bundler/src/bundler.py -i ./src/main.rs -o ./target/bundle.rs",
+			"label": "rust-bundle"
+		},
+		{
+			"label": "Build",
+			"dependsOn": [
+				"rust-build",
+				"rust-bundle"
+			]
 		}
 	]
 }

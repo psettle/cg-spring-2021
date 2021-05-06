@@ -1,0 +1,3 @@
+[submodule "modules/cg-rust-bundler"]
+	path = modules/cg-rust-bundler
+	url = https://github.com/MarcosCosmos/cg-rust-bundler.git
