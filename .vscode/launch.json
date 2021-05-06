@@ -13,7 +13,8 @@
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
-      "console": "externalTerminal"
+      "console": "externalTerminal",
+      "preLaunchTask": "Rust: cargo build - cg-spring-2021"
     }
   ]
 }
